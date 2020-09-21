@@ -6,6 +6,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import Footer from './components/Footer'; 
+import HomePage from './pages/HomePage'; 
+import ProjectsPage from './pages/ProjectsPage';
+import DocumentsPage from './pages/DocumentsPage';
+import ContactPage from './pages/ContactPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,12 +24,12 @@ class App extends React.Component {
       ],
       home: {
         title: 'Hey there!',
-        subtitle: 'Welcome to my personal website.',
+        subTitle: 'Welcome to my personal website.',
         text: 'Placeholder text for now',
       },
       projects: {
         title: 'My Projects',
-        subtitle: "From app development to tinkering with robots, I've tried it all",
+        subTitle: "From app development to tinkering with robots, I've tried it all",
       },
       documents: {
         title: 'So you wanna see my deets, huh?',
@@ -42,9 +46,9 @@ class App extends React.Component {
         <Container fluid={true} className='p-0'>  { /*Fluid false = Huge left margin. Change padding via "className='p-0'" */}
           
           <Navbar expand="lg" bg="light" variant="light" className="border-bottom">
-            <Navbar.Brand href="#home" class="center">
+            <Navbar.Brand href="/" class="center">
               <img 
-                alt=""
+                alt="Daniel Hanna Logo"
                 src="/siteLogo.png" 
                 width="30px" 
                 height="30px"
@@ -58,13 +62,29 @@ class App extends React.Component {
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/documents">Documents</Link>
                 <Link className="nav-link" to="/contact">Contact Me</Link>
+              
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Container fluid={false} className='p-1'>
-            <p className="">Adding placeholder text for future reference</p>
-          </Container>
+          <Route path="/" exact render={() => 
+                          <HomePage title={this.state.home.title} 
+                          subTitle={this.state.home.subTitle} 
+                          text={this.state.home.text}
+                         />} />
+          
+          <Route path="/projects" exact render={() => 
+                          <ProjectsPage title={this.state.projects.title} 
+                          subTitle={this.state.projects.subTitle} 
+                         />} />
+
+          <Route path="/documents" exact render={() => 
+                          <DocumentsPage title={this.state.documents.title}  
+                         />} />
+          
+          <Route path="/contact" exact render={() => 
+                          <ContactPage title={this.state.contact.title} 
+                         />} />
 
           <Footer />
           
