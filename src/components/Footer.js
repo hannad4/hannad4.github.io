@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function footer() {
 
     return (
-        <footer className="mt-5" >
+        <footer >
 
             { /*Might want to do this so top and bottom border match exactly. Leaving for now */ }
             {/* <Navbar expand="lg" bg="light" variant="light" className="border-bottom"></Navbar>  */}

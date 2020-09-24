@@ -7,7 +7,6 @@ function HomePage(props) {
         <Spotlight 
         title={props.title}
         subTitle={props.subTitle}
-        text={props.text}
         />
     );
 }

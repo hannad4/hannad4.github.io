@@ -23,9 +23,8 @@ class App extends React.Component {
         { title: 'Contact Me', path: '/contact' }
       ],
       home: {
-        title: 'Hey there!',
-        subTitle: 'Welcome to my personal website.',
-        text: 'About me placeholder text for now',
+        title: 'Daniel Hanna',
+        subTitle: 'Thinker | Coder | Engineer',
       },
       projects: {
         title: 'My Projects',
@@ -53,7 +52,6 @@ class App extends React.Component {
                 width="30px" 
                 height="30px"
                 className="d-inline-block align-left"/>{' '}
-              Daniel Hanna
             </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -70,7 +68,6 @@ class App extends React.Component {
           <Route path="/" exact render={() => 
                           <HomePage title={this.state.home.title} 
                           subTitle={this.state.home.subTitle} 
-                          text={this.state.home.text}
                          />} />
           
           <Route path="/projects" exact render={() => 
@@ -85,8 +82,10 @@ class App extends React.Component {
           <Route path="/contact" exact render={() => 
                           <ContactPage title={this.state.contact.title} 
                          />} />
-
-          <Footer />
+          
+          <div id="footer">
+            <Footer></Footer>
+          </div>
           
         </Container>
       </Router>
