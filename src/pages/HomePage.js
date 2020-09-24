@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Spotlight from '../components/Spotlight';
+
 function HomePage(props) {
     return (
-        <p>This is the HOME page</p>
+        <Spotlight 
+        title={props.title}
+        subTitle={props.subTitle}
+        text={props.text}
+        />
     );
 }
 
