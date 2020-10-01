@@ -24,7 +24,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Daniel Hanna',
-        subTitle: 'Thinker | Coder | Engineer',
+        subTitle: 'Engineer | Programmer | Problem-Solver',
       },
       projects: {
         title: 'My Projects',
@@ -84,8 +84,8 @@ class App extends React.Component {
                          />} />
           
           <div id="footer">
-            <Footer></Footer>
-          </div>
+            <Footer></Footer> 
+          </div> 
           
         </Container>
       </Router>

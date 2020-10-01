@@ -11,7 +11,7 @@ function footer() {
             {/* <Navbar expand="lg" bg="light" variant="light" className="border-bottom"></Navbar>  */}
 
             <Container className="border-top" fluid={true}>
-                <div  style={{textAlign:'center'}}>
+                <div style={{textAlign:'center'}}>
                     <small>This site was made with ❤ using ReactJS & Bootstrap. View the source code: </small>
                     <a href="https://github.com/hannad4/my-website" target="_blank" rel="noopener noreferrer">
                         <img 
