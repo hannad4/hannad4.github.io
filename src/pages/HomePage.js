@@ -8,6 +8,7 @@ function HomePage(props) {
         title={props.title}
         subTitle={props.subTitle}
         />
+        
     );
 }
 

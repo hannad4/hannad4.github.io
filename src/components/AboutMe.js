@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 function AboutMe() {
 
     return (
-        <p style={{fontSize:'18px'}}>
+        <p style={{fontSize:'18.5px'}}>
             Welcome to my website! My name is Daniel Hanna. I am a Cum Laude graduate from The College of New Jersey with a Bachelors of Science in Computer Engineering. I have experience in both Computer and Software Engineering. I also find great interest in Digial Circuits, Mircoprocessors, and Operating Systems Concepts. 
             <br></br>
             <br></br>
@@ -11,14 +11,10 @@ function AboutMe() {
             <br></br>
             <br></br>
             I have worked on numerous projects that are available for viewing in the projects tab seen at the top of this page as well as on my&nbsp;
-            <a href="https://github.com/hannad4" target="_blank" rel="noopener noreferrer">GitHub page</a>.
-            <br></br>
-            <br></br>
+            <b><a href="https://github.com/hannad4" target="_blank" rel="noopener noreferrer">GitHub page</a></b>.
+            
             If you are interested in learning more, I encourage you to check out the rest of this website. You can always shoot me a message via the <i>Contact Me</i> form located on this website as well!
-            
         </p>
-            
-
     ); 
 }
 

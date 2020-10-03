@@ -27,11 +27,11 @@ class App extends React.Component {
         subTitle: 'Engineer | Programmer | Problem-Solver',
       },
       projects: {
-        title: 'My Projects',
-        subTitle: "From app development to tinkering with robots, I've tried it all",
+        title: 'Projects',
       },
       documents: {
-        title: 'So you wanna see my deets, huh?',
+        title: 'Documents',
+        subTitle: "Resume, Certifications, etcetera"
       },
       contact: {
         title: "Let's get in touch",
@@ -71,21 +71,20 @@ class App extends React.Component {
                          />} />
           
           <Route path="/projects" exact render={() => 
-                          <ProjectsPage title={this.state.projects.title} 
-                          subTitle={this.state.projects.subTitle} 
+                          <ProjectsPage title={this.state.projects.title}  
                          />} />
 
           <Route path="/documents" exact render={() => 
-                          <DocumentsPage title={this.state.documents.title}  
+                          <DocumentsPage title={this.state.documents.title} 
+                          subTitle={this.state.documents.subTitle} 
                          />} />
           
           <Route path="/contact" exact render={() => 
                           <ContactPage title={this.state.contact.title} 
                          />} />
           
-          <div id="footer">
-            <Footer></Footer> 
-          </div> 
+          <Footer id="footer"></Footer> 
+          
           
         </Container>
       </Router>

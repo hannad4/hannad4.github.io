@@ -30,13 +30,15 @@ function Spotlight(props) {
                             {props.subTitle && <h2 className="display-5 font-weight-light">{props.subTitle}</h2>}
                             <br></br>
                             <AboutMe></AboutMe>
-                            
                         </Col>
                         
                     </Row>
                     
-                </Container>    
+                <br></br>  
+                <br></br>
+                </Container>  
             </Jumbotron>
+            
         
         
     ); 

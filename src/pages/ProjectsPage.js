@@ -2,59 +2,28 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
-import Jumbotron from 'react-bootstrap/Jumbotron'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+
+import ProjectsCarousel from '../components/ProjectsCarousel';
 
 
 function ProjectsPage(props) {
     return (
-        <Jumbotron className="bg-transparent justify-content-center p-5" >
-            <Container fluid={false}>
-                <Carousel>
-                    <Carousel.Item>
-                        <a href="https://github.com/hannad4/acsAssist" target="_blank" rel="noopener noreferrer">
-                            <Image
-                                className="d-block w-100"
-                                src="../acsAssist.png"
-                                alt="ACS Assist Project Slide Image"
-                            />
-                        </a>
-                        <Carousel.Caption>
-                            <h3>The ACS Assist</h3>
-                            <p>A project to aid in Adhesive Capsulitis of Shoulder</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
+            <Container fluid={true}>
+                    <center>
+                    <Col xs={8} className="p-0">
+                        <br></br>
+                        {props.title && <h1 className="display-4 font-weight-bold">{props.title}</h1>}
+                        <p className="display-6 font-weight-light">These are just some highlights. You can find some more good ones <b><a href="https://github.com/hannad4" target="_blank" rel="noopener noreferrer">here</a></b> 😉</p>
+                    </Col>
+                    <ProjectsCarousel></ProjectsCarousel>
+                    </center>
+                
 
-                    <Carousel.Item>
-                        <a href="https://www.github.com">
-                            <img
-                                className="d-block w-100"
-                                src="../acsAssist.png"
-                                alt="ACS Assist Project Slide Image"
-                            />
-                        </a>
-                        <Carousel.Caption>
-                            <h3>The ACS Assist</h3>
-                            <p>A project to aid in Adhesive Capsulitis of Shoulder</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
 
-                    <Carousel.Item>
-                        <a href="https://www.github.com">
-                            <img
-                                className="d-block w-100"
-                                src="../acsAssist.png"
-                                alt="ACS Assist Project Slide Image"
-                            />
-                        </a>
-                        <Carousel.Caption>
-                            <h3>The ACS Assist</h3>
-                            <p>A project to aid in Adhesive Capsulitis of Shoulder</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
             </Container>
-        </Jumbotron>
-
     );
 }
 
