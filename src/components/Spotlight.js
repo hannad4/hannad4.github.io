@@ -10,8 +10,7 @@ import AboutMe from './AboutMe'
 
 function Spotlight(props) {
     return(
-        
-            <Jumbotron className="bg-transparent justify-content-center p-5" >  {/*delete jumbotron-fluid later b/c I like the rounded corners*/}
+            <Jumbotron className="bg-transparent justify-content-center p-5" >  
                 <Container fluid={true}>
                     <Row className="p-0">     
                         <Col className="p-0">

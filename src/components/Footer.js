@@ -1,18 +1,13 @@
 import React from 'react'; 
 import Container from 'react-bootstrap/Container'
-import Navbar from 'react-bootstrap/Navbar';
 
 function footer() {
 
     return (
         <footer id="footer">
-
-            { /*Might want to do this so top and bottom border match exactly. Leaving for now */ }
-            {/* <Navbar expand="lg" bg="light" variant="light" className="border-bottom"></Navbar>  */}
-
             <Container className="border-top" fluid={true}>
                 <div className="p-2" style={{textAlign:'center'}}>
-                    <small>This site was made with ❤ using ReactJS & Bootstrap. View the source code: </small>
+                    <small>This site was made with ❤ using ReactJS & Bootstrap. For the best experience, visit this site full-screened on desktop. Check out the source code: </small>
                     <a href="https://github.com/hannad4/my-website" target="_blank" rel="noopener noreferrer">
                         <img 
                         alt="Link to website source code located on my GitHub page"
@@ -22,8 +17,7 @@ function footer() {
                         className="d-inline-block align-left"/>{' '}
                     </a>
                 </div>
-            </Container>
-               
+            </Container>       
         </footer>
     ); 
 }

@@ -20,7 +20,8 @@ function ProjectsCarousel(props) {
                                 className="d-block w-100"
                                 src="../acsAssist.png"
                                 alt="ACS Assist Project Slide Image"
-                                responsive
+                                responsive="true"
+                                fluid="true"
                             />
                         <Carousel.Caption style={{backgroundColor:'rgba(41, 40, 40, 0.8)'}}>
                             <h3>The ACS Assist</h3>
@@ -35,7 +36,8 @@ function ProjectsCarousel(props) {
                                 className="d-block w-100"
                                 src="../seleniumWebBot.png"
                                 alt="Selenium Bot for Class Selection Project Image"
-                                responsive
+                                responsive="true"
+                                fluid="true"
                             />
                         <Carousel.Caption style={{backgroundColor:'rgba(41, 40, 40, 0.8)'}}>
                             <h3>TCNJ PAWS Selenium Bot</h3>
@@ -50,7 +52,8 @@ function ProjectsCarousel(props) {
                                 className="d-block w-100"
                                 src="../tcnjParkingSpaces.png"
                                 alt="TCNJ Parking Availabilty Project Image"
-                                responsive
+                                responsive="true"
+                                fluid="true"
                             />   
                         <Carousel.Caption style={{backgroundColor:'rgba(41, 40, 40, 0.8)'}}>
                             <h3>TCNJ Parking Availabilty Predictor</h3>
