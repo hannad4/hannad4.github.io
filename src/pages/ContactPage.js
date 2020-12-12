@@ -82,7 +82,7 @@ class ContactPage extends React.Component {
                             <br></br>
                             <br></br>
                             <h5 className="font-weight-light">Thank you for visiting my website 
-                                <span role="img" aria-label="two hearts">💕</span>
+                            <span role="img" aria-label="two hearts"> 💕</span>
                             </h5>
                         </div>
                     </center>
