@@ -39,7 +39,7 @@ function Spotlight(props) {
                 <footer id="footer">
                     <Container className="border-top" fluid={true}>
                         <div className="p-2" style={{ textAlign: 'center' }}>
-                            <small>This site was made with ❤ using ReactJS & Bootstrap. For the best experience, visit this site full-screened on desktop. Check out the source code <a href="https://github.com/hannad4/my-website" target="_blank" rel="noopener noreferrer">here</a>
+                            <small>This site was made with ❤ using ReactJS & Bootstrap. For the best experience, visit this site full-screened on desktop. Check out the source code <a href="https://github.com/hannad4/hannad4.github.io/tree/source" target="_blank" rel="noopener noreferrer">here</a>
                             </small>
                         </div>
                     </Container>
