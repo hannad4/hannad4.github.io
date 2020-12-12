@@ -8,7 +8,6 @@ import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import Footer from './components/Footer'; 
 import HomePage from './pages/HomePage'; 
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
@@ -30,9 +29,6 @@ class App extends React.Component {
       projects: {
         title: 'Projects',
       },
-      contact: {
-        title: "Let's get in touch",
-      }
     }
   }
 
@@ -70,10 +66,7 @@ class App extends React.Component {
                          />} />
           
           <Route path="/contact" exact render={() => 
-                          <ContactPage title={this.state.contact.title} 
-                         />} />
-          
-          <Footer id="footer"></Footer> 
+                          <ContactPage/>}/>
           
         </Container>
       </Router>

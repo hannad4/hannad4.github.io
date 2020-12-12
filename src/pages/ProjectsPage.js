@@ -17,9 +17,6 @@ function ProjectsPage(props) {
                     </Col>
                     <ProjectsCarousel></ProjectsCarousel>
                     </center>
-                
-
-
             </Container>
     );
 }
