@@ -1,0 +1,67 @@
+.webPage {
+  /* text-align: center; */
+  background-color: #000000;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.Spotlight {
+  /* display: inline-flex; */
+  /* flex-direction: row; */
+  display: flex; 
+  align-items: left;
+  justify-content: left;
+  padding: 5%;
+}
+
+.headShot {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+  float: left;
+  width: auto; 
+ 
+  /* padding-right: 2%; */
+}
+
+.headShotName {
+  display: flex;
+  justify-content: right;
+  /* align-items: center; */
+  font-size: 400%;
+  padding-left: 7%; 
+ 
+  /* padding-left: 2%; */
+  /* float: right;  */
+  /* overflow: hidden; */
+  /* width: auto;  */
+}
+
+.headShotDescriptor {
+  width: 100%; 
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-profile-spin {
+  from {
+    /* transform: rotate(0deg); */
+  }
+  to {
+    transform: scale(0.3) translate(-100%, -100%);
+  }
+}
+
+.fa-bounce {
+  animation: fa-bounce 2s infinite linear !important;
+}
+
+.html {
+  scroll-behavior: smooth;
+  scroll-snap-type: both mandatory;
+}
