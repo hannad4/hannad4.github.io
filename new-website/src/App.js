@@ -7,6 +7,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer"; 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons'
@@ -25,6 +26,7 @@ export default function App() {
       <Work />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   ); 
 }

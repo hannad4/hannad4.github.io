@@ -1,6 +1,7 @@
 import React from "react";
-
-
+  
+// link to create download for google drive resume: https://pbkvoeoo.paperform.co/
+// 
 export default function About() {
   return (
     
@@ -23,10 +24,13 @@ export default function About() {
               Learn more
             </a>
 
+            
+
             <a
-              href="https://github.com"
+              href="https://drive.google.com/uc?export=download&id=11aL9YCAPSb5LeE7wSpAFVlrvT4yqF-Q8"            
               target="_blank"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              >
               Download my Resume
             </a>
 
