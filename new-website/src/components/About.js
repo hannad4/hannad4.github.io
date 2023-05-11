@@ -10,7 +10,7 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex px-10 py-10 md:py-20 md:flex-row flex-col items-center snap-mandatory">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-15 md:mb-0 items-center text-center">
-          <h1 className="title-font tracking-tight sm:text-7xl text-5xl mb-4 font-medium text-white">
+          <h1 className="title-font w-full flex sm:text-7xl text-5xl mb-4 font-medium text-white">
             Hey, I'm Danny
           </h1>
 
@@ -18,7 +18,7 @@ export default function About() {
             speed={25}
             deletionSpeed={35}
             repeat={Infinity}
-            className="lg:inline-block sm:text-4xl text-2xl mb-4 font-medium w-full"
+            className="lg:inline-block inline-block sm:text-4xl text-2xl mb-4 font-medium"
             sequence={[
               // Same String at the start will only be typed once, initially
               "I solve complex problems",
