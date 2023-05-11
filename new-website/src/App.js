@@ -4,6 +4,7 @@ import './App.css';
 import React from "react"; 
 import Navbar from "./components/Navbar";
 import About from "./components/About"; 
+import Stats from "./components/Stats";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -19,14 +20,18 @@ export default function App() {
       {/* <Navbar />        Decided to not include this because it looks ugly imo */}
       <About />
 
-      <a href="#work" >
+      {/* <a href="#stats" >
         <FontAwesomeIcon icon={faAngleDown} className="container mx-auto flex py-10 md:flex-row items-center sm:text-7xl text-5xl font-medium title-font text-white fa-bounce" />  
-      </a>
+      </a> */}
+
+      
+      <Stats />
 
       <Work />
-      <Projects />
+      {/* <Projects />      Decomissioning project page to remove impressions of "seeking coding position" */}
       <Contact />
       <Footer />
     </main>
   ); 
 }
+
