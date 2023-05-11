@@ -79,7 +79,6 @@ export default function ContactNew() {
     emailjs
       .sendForm(
         "service_7uh2h2d",
-        "UNDEFINED",
         "template_75gr00i",
         form.current,
         "BxEQeqvUUw1nO4ukQ"
