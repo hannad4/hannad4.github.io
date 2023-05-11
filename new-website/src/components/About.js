@@ -38,14 +38,14 @@ export default function About() {
 
           <div className="flex justify-center py-10">
             <a
-              href="#stats"
+              href="#ethics"
               className="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg scroll-smooth"
             >
               Learn more
             </a>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1gXQDnIxj2D_04QM0KrYxWMoOdo3vNhsP"
+              href="https://drive.google.com/uc?export=download&id=1HSFN9c_fe18j6O5Nt9TMOay3iVQ_4u6Q"
               target="_blank"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
@@ -63,7 +63,7 @@ export default function About() {
         </div>
       </div>
 
-      <a href="#stats">
+      <a href="#ethics">
         <FontAwesomeIcon
           icon={faAngleDown}
           className="container mx-auto flex py-10 md:flex-row items-center sm:text-7xl text-5xl font-medium title-font text-white fa-bounce sm:w-full md:w-full"
