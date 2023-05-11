@@ -8,7 +8,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 export default function About() {
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 py-10 md:py-20 md:flex-row flex-col items-center snap-mandatory">
+      <div className="container sm:mx-auto md:mx-auto lg:mx-auto flex px-10 py-10 md:py-20 md:flex-row flex-col items-center snap-mandatory">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-15 md:mb-0 items-center text-center">
           <h1 className="title-font w-full flex sm:text-7xl text-5xl mb-4 font-medium text-white">
             Hey, I'm Danny
