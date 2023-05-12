@@ -39,7 +39,7 @@ export default function Ethics() {
                   Versatile Insightfulness
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-500">
-                  Maintaining the ability perceive that there's a bigger
+                  Maintaining the ability to perceive that there's a bigger
                   picture, discerning the interconnectedness of various
                   components, and applying this knowledge to make informed
                   decisions.
