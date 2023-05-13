@@ -14,8 +14,6 @@ import Footer from "./components/Footer";
 // import Contact from "./components/Contact";
 
 export default function App() {
-  const TRACKING_ID = "G-9JE7T57GTH";
-  ReactGA.initialize(TRACKING_ID);
   return (
     <main className="text-gray-400 bg-gray-900 body-font snap-mandatory snap-y snap-z">
       <PageScrollProgressBar
