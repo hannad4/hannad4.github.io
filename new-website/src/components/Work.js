@@ -20,7 +20,7 @@ export default function Work() {
             >
               My Work History
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center text-gray-300">
               From joining the work force at age 14 till now - positions
               outlined
             </p>

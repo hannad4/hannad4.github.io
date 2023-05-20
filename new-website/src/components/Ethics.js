@@ -23,7 +23,7 @@ export default function Ethics() {
             <p className="mt-2 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">
               Who I am lies within these principles
             </p>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400 mt-6">
+            <p className="text-base font-normal text-gray-300 dark:text-gray-300 mt-6">
               The following tenets are what I have found to be my guide as I
               personally and professionally develop through work and life.
             </p>
@@ -38,7 +38,7 @@ export default function Ethics() {
                   </div>
                   Versatile Insightfulness
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-400">
                   Maintaining the ability to perceive that there's a bigger
                   picture, discerning the interconnectedness of various
                   components, and applying this knowledge to make informed
@@ -53,7 +53,7 @@ export default function Ethics() {
                   </div>
                   Asset Leverage
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-400">
                   Understanding that it can't all be done solo. Using resources,
                   connections, & tools to the best of my ability so goals and
                   success can be achieved.
@@ -67,7 +67,7 @@ export default function Ethics() {
                   </div>
                   Reflective Rebalancing
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-400">
                   Knowing that it is easy to get lost in the weeds. Recognizing
                   the importance of reflecting on the goal, analyzing the
                   current direction, & recalibrating with renewed focus and
@@ -82,7 +82,7 @@ export default function Ethics() {
                   </div>
                   Resiliency via Refinement
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-400">
                   Learning to bounce back and grow from setbacks is what forges
                   growth for whatever comes next.
                 </dd>
@@ -92,7 +92,7 @@ export default function Ethics() {
           <div className="mx-auto max-w-2xl lg:text-center">
             {/* <h2 className="text-base font-semibold leading-7 text-fuchsia-800">About Me</h2> */}
 
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400 mt-20 text-center lg:text-center">
+            <p className="text-base font-normal text-gray-650 dark:text-gray-650 mt-20 text-center lg:text-center">
               Proof is in the pudding - keep scrolling to find out more
             </p>
           </div>
