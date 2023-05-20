@@ -134,7 +134,7 @@ export default function ContactNew() {
                   </div>
                 </a>
 
-                <a href="mailto:daniel.hanna15@gmail.com">
+                <a href="mailto:hello@dannyhanna.com">
                   <div className="flex items-center text-gray-400 mb-12">
                     <svg
                       fill="none"
@@ -153,7 +153,7 @@ export default function ContactNew() {
                       />
                     </svg>
                     <div className="ml-3 text-sm lg:text-md md:text-md tracking-narrow font-semibold w-40">
-                      daniel.hanna15@gmail.com
+                      hello@dannyhanna.com
                     </div>
                   </div>
                 </a>
