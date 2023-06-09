@@ -21,8 +21,9 @@ export default function Work() {
               My Work History
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center text-gray-300">
-              From joining the work force at age 14 till now - positions
-              outlined
+              From joining the work force at age 14 up to being a part of the
+              Verizon Leadership Development Program now - positions outlined
+              below
             </p>
           </div>
 
@@ -37,21 +38,23 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Actively field-testing temporary asset deployments for
-                  large-scale events, enabling sufficient data aggregation to
-                  facilitate system optimization for hundreds of assets serving
-                  over 30,000 customers
+                  Facilitating field-testing and data aggregation for temporary
+                  assets serving thousands of customers including events such as
+                  Waste Management Phoenix Open with over 250,000 users
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Strategically partnering with implementation teams to address
-                  customer needs via monitoring of deficiently performing
-                  systems, identifying in-flight solution projects for over 85%
-                  of areas within 7 markets across 3 states
+                  Partnered with system performance and implementation teams to
+                  identify and prioritize 85+ in-flight solution projects for
+                  the "Top 50" most poorly performing subregions based on key
+                  performance indicator (KPI) triggers which include: peak user
+                  equipment (UE) count, user-perceived uplink/downlink
+                  throughput, and transmission time interval (TTI) occupancy
                 </li>
                 <li class="text-base font-normal text-gray-400 py-2.5">
-                  Purposefully monitoring and tracking project progress on a
-                  daily basis, providing attention to bottleneck concerns for
-                  dozens of projects at any given time
+                  Engaged in Store Buddy Program visits to facilitate
+                  partnership and communication with the sales teams in
+                  knowledge regarding the network's current status, future
+                  development plans, and any related customer feedback
                 </li>
               </ul>
             </li>
@@ -66,27 +69,26 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Drove the 5G build process to overcome obstacles & supplement
-                  the cost-effective and smooth plan of record (POR) rollout for
-                  over 650 mmWave turnups, exceeding objectives by 113%
+                  Assured a smooth plan of record (POR) rollout for over 650
+                  mmWave turnups, exceeding objectives by 113% and overcoming
+                  obstacles to drive a cost-effective 5G build process
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Spearheaded analysis and resolution of complications in the
-                  build-out procedure, resulting in over 100 Small Cell
-                  New-Build activations within Northern New Jersey
+                  Activated over 100 Small Cell New-Build sites within Northern
+                  New Jersey, spearheading the analysis and resolution of
+                  complications in the build-out procedure
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Managed Orchestration support for assets via multidisciplinary
-                  communication, ensuring successful vDU deployment of LS3/LS6
-                  spectrum for 100% of temporary assets and 98% of new build
-                  macro sites
+                  Ensured successful virtualized distributed unit (vDU)
+                  deployment of LS3/LS6 spectrum for 30+ temporary assets and
+                  50+ new build macro sites by means of orchestration process
+                  management via multidisciplinary communication
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Operated cross-functionally with contractors, external
+                  Directed a cross-functional team of contractors, external
                   vendors, construction managers, radio frequency engineers, and
-                  system performance specialists to intellectually plan and
-                  troubleshoot through conflicts, prompting over 100% of the
-                  build target to be met across all initiatives
+                  system performance specialists to plan through conflicts,
+                  prompting over 100% of the build target to be met
                 </li>
               </ul>
             </li>
@@ -101,21 +103,21 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Ensured sufficient Long Distance (LD) Transport capacity
-                  availability for over 150 internal and external customer
-                  demands originating in the South-East region, surpassing 85%
-                  of service level agreement (SLA) targets
+                  Surpassed 85% of service level agreement (SLA) targets by
+                  ensuring sufficient transport capacity availability for over
+                  150 internal and external customer demands originating in the
+                  South-East region
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Planned and provisioned circuits across Ultra Long Haul (ULH),
-                  Optical Transport Network (OTN), former XO (fXO), former NNO
-                  (fNNO), and FlexGrid networks, initiating over 200 circuit
-                  capacity requirement (CCR) designs
+                  Initiated over 200 circuit capacity requirement (CCR) designs
+                  by planning and provisioning circuits across Ultra Long Haul
+                  (ULH), Optical Transport Network (OTN), former XO (fXO),
+                  former NNO (fNNO), and FlexGrid networks
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Served as Southeast (SE) ULH lead for a majorly critical
-                  government project, ensuring the successful design of over 35%
-                  of new circuit requirements for the program
+                  Served as team lead for large-scale critical government
+                  project by successfully engaging with requestors and designing
+                  over 35% of complex circuit requirements for the region
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
                   Actively utilized several internal Verizon assets to verify
@@ -141,19 +143,20 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Processed wireless networking analysis to ensure proficient
-                  signal strength & data speeds throughout the 289-acre campus
+                  Ensured proficient signal strength and data speeds throughout
+                  the 289-acre campus by engaging in wireless networking
+                  analysis
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Executed personal and business device imaging, malware and
-                  virus removal, data migration, system remediation, and machine
-                  restoration, yielding successful issue resolution for over 100
-                  students and faculty
+                  Successfully united with teammates and resolved issues for
+                  over 100 students and faculty by way of personal/business
+                  device imaging, malware/virus removal, system remediation, and
+                  hardware repair
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
                   Managed campus-wide computer system upgrades, achieving large
-                  scale data-backup & migration across all 7 schools and
-                  associated departments
+                  scale data-backup and migration across all academic
+                  departments
                 </li>
               </ul>
             </li>
