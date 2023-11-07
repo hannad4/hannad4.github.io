@@ -57,7 +57,7 @@ export default function ContactNew() {
 
     const successMessage = document.createElement("span");
     successMessage.innerHTML =
-      "<strong>Email successfully sent!</strong> I'll be in touch soon";
+      "<strong>Message successfully sent!</strong> I'll be in touch soon";
     popup.appendChild(successMessage);
 
     // Append the popup to the document body

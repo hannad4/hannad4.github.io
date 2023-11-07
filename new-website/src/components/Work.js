@@ -38,23 +38,29 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Facilitating field-testing and data aggregation for temporary
-                  assets serving thousands of customers including events such as
-                  Waste Management Phoenix Open with over 250,000 users
+                  Supporting 250,000+ users at events such as Waste Management
+                  Phoenix Open and Superbowl LVIII by facilitating field-testing
+                  and data aggregation for critical temporary assets
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Partnered with system performance and implementation teams to
-                  identify and prioritize 85+ in-flight solution projects for
-                  the "Top 50" most poorly performing subregions based on key
-                  performance indicator (KPI) triggers which include: peak user
-                  equipment (UE) count, user-perceived uplink/downlink
-                  throughput, and transmission time interval (TTI) occupancy
+                  Prioritizing and tracking 85+ projects by partnering with
+                  implementation teams to address the "Top 50" most poorly
+                  performing subregions per high-value key performance indicator
+                  (KPI) triggers including: peak user equipment (UE) count,
+                  user-perceived uplink/downlink throughput, and transmission
+                  time interval (TTI) occupancy
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Improving customer-facing network equipment aggregate data
+                  speeds by over 200% via the assessment of default
+                  configuration performance metrics and documenting vital setup
+                  recommendations
                 </li>
                 <li class="text-base font-normal text-gray-400 py-2.5">
-                  Engaged in Store Buddy Program visits to facilitate
-                  partnership and communication with the sales teams in
-                  knowledge regarding the network's current status, future
-                  development plans, and any related customer feedback
+                  Engaging in storefront visits to facilitate partnership and
+                  strong communication with the sales teams in knowledge
+                  regarding the network’s current status, future development
+                  plans, and any related customer feedback
                 </li>
               </ul>
             </li>
