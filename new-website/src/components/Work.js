@@ -39,8 +39,9 @@ export default function Work() {
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
                   Supporting 250,000+ users at events such as Waste Management
-                  Phoenix Open and Superbowl LVIII by facilitating field-testing
-                  and data aggregation for critical temporary assets
+                  Phoenix Open, Superbowl LVII, and Superbowl LVIII, overseeing
+                  field-testing, data aggregation, performance verification, and
+                  identification of opportunities for improvement
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
                   Prioritizing and tracking 85+ projects by partnering with

@@ -81,7 +81,7 @@ export default function ContactNew() {
         "service_7uh2h2d",
         "template_75gr00i",
         form.current,
-        "BxEQeqvUUw1nO4ukQ"
+        "MMSMo_Hh1FFsbb4TF"
       )
       .then(
         (result) => {
