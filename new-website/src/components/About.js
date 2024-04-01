@@ -45,7 +45,7 @@ export default function About() {
             </a>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1HSFN9c_fe18j6O5Nt9TMOay3iVQ_4u6Q"
+              href="https://drive.google.com/uc?export=download&id=1TAyGVBRrlDIhDDWVfKiLUTn1apzk8mLa"
               target="_blank"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
