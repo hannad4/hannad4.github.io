@@ -28,23 +28,53 @@ export default function Work() {
           </div>
 
           <ol class="relative border-l border-gray-200 dark:border-gray-700">
+
+          <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-fuchsia-500 dark:text-fuchsia-500">
+                March 2024 - Present{" "}
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                Supervisor - Network Operations, SW Region - Verizon
+              </h3>
+              <ul class="list-disc px-4">
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Managing 7 engineers across Tempe and Tucson to ensure 24/7 operation of Verizon’s
+                  Service and Transport Aggregation Point locations, sustaining 
+                  operational uptime and network resiliency
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Aligning team focus towards key initiatives to drive impactful outcomes, 
+                  such as 90% of Loss of Diversity ticketing closed within 24 hours 
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Preemptively pursuing network hardening efforts, such as SFP sparing inventory 
+                  and sourcing, to ensure switch readiness in events mandating critical emergency
+                </li>
+                <li class="text-base font-normal text-gray-400 py-2.5">
+                  Investigating team performance metrics relative to regional benchmarks, 
+                  facilitating team feedback for strategic insights and decision-making
+                </li>
+              </ul>
+            </li>
+
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time class="mb-1 text-sm font-normal leading-none text-fuchsia-500 dark:text-fuchsia-500">
-                January 2023 - Present{" "}
+                January 2023 - February 2024
               </time>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 Engineer III - System Performance, SW Region - Verizon
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Supporting 250,000+ users at events such as Waste Management
+                  Supported 250,000+ users at events such as Waste Management
                   Phoenix Open, Superbowl LVII, and Superbowl LVIII, overseeing
                   field-testing, data aggregation, performance verification, and
                   identification of opportunities for improvement
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Prioritizing and tracking 85+ projects by partnering with
+                  Prioritized and tracked 85+ projects by partnering with
                   implementation teams to address the "Top 50" most poorly
                   performing subregions per high-value key performance indicator
                   (KPI) triggers including: peak user equipment (UE) count,
@@ -52,13 +82,13 @@ export default function Work() {
                   time interval (TTI) occupancy
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Improving customer-facing network equipment aggregate data
+                  Improved customer-facing network equipment aggregate data
                   speeds by over 200% via the assessment of default
                   configuration performance metrics and documenting vital setup
                   recommendations
                 </li>
                 <li class="text-base font-normal text-gray-400 py-2.5">
-                  Engaging in storefront visits to facilitate partnership and
+                  Engaged in storefront visits to facilitate partnership and
                   strong communication with the sales teams in knowledge
                   regarding the network’s current status, future development
                   plans, and any related customer feedback
