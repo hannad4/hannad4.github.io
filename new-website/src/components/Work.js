@@ -39,8 +39,8 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Managing 7 engineers across Tempe and Tucson to ensure 24/7 operation of Verizon’s
-                  Service and Transport Aggregation Point locations, sustaining 
+                  Managing 7 engineers across Tempe and Tucson, in addition to 10 dotted-line reports, to ensure 24/7 operation of Verizon’s
+                  Service and Transport Aggregation Point locations throughout the Southwest region, sustaining 
                   operational uptime and network resiliency
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
