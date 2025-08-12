@@ -32,27 +32,75 @@ export default function Work() {
           <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time class="mb-1 text-sm font-normal leading-none text-fuchsia-500 dark:text-fuchsia-500">
-                March 2024 - Present{" "}
+                June 2025 - Current
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                Senior Engineer - Southwest Radio Frequency Design Engineering - Verizon
+              </h3>
+              <ul class="list-disc px-4">
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Leading strategic RF network design and optimization across Arizona's AZ2,AZ3,AZ5, and PHO MSA/RSA zones
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Developing and implementing innovative RF solutions to address and improve areas of concern for coverage and capacity situations
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Generating predictive RF models and plots based on custom designed Radio Frequency Design Specifications
+                </li>
+                <li class="text-base font-normal text-gray-400 py-2.5">
+                  Ensuring EME and FCC regulatory compliance via PSD and NON-PSD power and frequency band licensing and contouring within CGSA/SAB borders
+                </li>
+              </ul>
+            </li>
+
+          <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-fuchsia-500 dark:text-fuchsia-500">
+                January 2025 - June 2025
+              </time>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                Principal Engineer - In-Building/Venue Program Management Office - Verizon
+              </h3>
+              <ul class="list-disc px-4">
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Tracking $100M+ equipment budget and project plan for IBV projects for the upcoming year by leveraging capital analytics and data insights
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Developing BOM equipment reporting tool to aid markets in Sub1/Sub2 timeline submission process
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Coordinating with GSC and markets to support incremental POR projects and equipment needs
+                </li>
+                <li class="text-base font-normal text-gray-400 py-2.5">
+                  Creating views to help automate project/equipment analysis initiatives
+                </li>
+              </ul>
+            </li>
+
+           <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-fuchsia-500 dark:text-fuchsia-500">
+                March 2024 - December 2024
               </time>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 Supervisor - Network Operations, SW Region - Verizon
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Managing 7 engineers across Tempe and Tucson, in addition to 10 dotted-line reports, to ensure 24/7 operation of Verizon’s
+                  Managed 7 engineers across Tempe and Tucson, in addition to 10 dotted-line reports, to ensure 24/7 operation of Verizon’s
                   Service and Transport Aggregation Point locations throughout the Southwest region, sustaining 
                   operational uptime and network resiliency
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Aligning team focus towards key initiatives to drive impactful outcomes, 
+                  Aligned team focus towards key initiatives to drive impactful outcomes, 
                   such as 90% of Loss of Diversity ticketing closed within 24 hours 
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Preemptively pursuing network hardening efforts, such as SFP sparing inventory 
+                  Preemptively pursued network hardening efforts, such as SFP sparing inventory 
                   and sourcing, to ensure switch readiness in events mandating critical emergency
                 </li>
                 <li class="text-base font-normal text-gray-400 py-2.5">
-                  Investigating team performance metrics relative to regional benchmarks, 
+                  Investigated team performance metrics relative to regional benchmarks, 
                   facilitating team feedback for strategic insights and decision-making
                 </li>
               </ul>
