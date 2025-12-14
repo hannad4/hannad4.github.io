@@ -71,6 +71,8 @@ export default function ContactNew() {
     }, 6000);
   }
 
+
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -78,10 +80,10 @@ export default function ContactNew() {
 
     emailjs
       .sendForm(
-        "service_7uh2h2d",
+        "service_x9q5tk9",
         "template_75gr00i",
         form.current,
-        "MMSMo_Hh1FFsbb4TF"
+        "d0XKTBBeNcqMotKau"
       )
       .then(
         (result) => {

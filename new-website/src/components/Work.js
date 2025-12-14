@@ -39,16 +39,16 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Leading strategic RF network design and optimization across Arizona's AZ2,AZ3,AZ5, and PHO MSA/RSA zones
+                  Leading strategic RF network design and deployment for hundreds of cellular nodes across Arizona's AZ2, AZ3, AZ5 markets and Phoenix MSA/RSA zones, optimizing coverage and capacity
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Developing and implementing innovative RF solutions to address and improve areas of concern for coverage and capacity situations
+                  Developing predictive RF propagation models and coverage plots via tools like ATOLL to create Radio Frequency Design Specifications (RFDS), guiding site planning and performance enhancements
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Generating predictive RF models and plots based on custom designed Radio Frequency Design Specifications
+                  Ensuring FCC regulatory compliance through PSD and non-PSD power contour analysis within Cellular Geographic Service Area (CGSA) and Service Area Boundary (SAB) mappings
                 </li>
                 <li class="text-base font-normal text-gray-400 py-2.5">
-                  Ensuring EME and FCC regulatory compliance via PSD and NON-PSD power and frequency band licensing and contouring within CGSA/SAB borders
+                  Representing the Southwest region at the national level, handling PARR power verification processes and addressing issues for adherence to FCC compliance
                 </li>
               </ul>
             </li>
@@ -63,16 +63,16 @@ export default function Work() {
               </h3>
               <ul class="list-disc px-4">
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Tracking $100M+ equipment budget and project plan for IBV projects for the upcoming year by leveraging capital analytics and data insights
+                  Tracked $100M+ equipment budget and project plan for IBV projects for the upcoming year by leveraging capital analytics and data insights
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Developing BOM equipment reporting tool to aid markets in Sub1/Sub2 timeline submission process
+                  Developed BOM equipment reporting tool to aid markets in Sub1/Sub2 timeline submission process
                 </li>
                 <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
-                  Coordinating with GSC and markets to support incremental POR projects and equipment needs
+                  Coordinated with GSC and markets to support incremental POR projects and equipment needs
                 </li>
                 <li class="text-base font-normal text-gray-400 py-2.5">
-                  Creating views to help automate project/equipment analysis initiatives
+                  Created views to help automate project/equipment analysis initiatives
                 </li>
               </ul>
             </li>
